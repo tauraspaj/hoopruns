@@ -1,5 +1,5 @@
 
-<section class="hidden sm:flex h-16 container mx-auto overflow-y-scroll {{$latestScoresVisibility}}">
+<section class="hidden sm:flex h-16 container mx-auto overflow-x-auto {{$latestScoresVisibility}}">
     {{-- Tournament select --}}
     <div class="flex-none border-r border-gray-300 h-full flex items-center px-2">
         <button class="border rounded-full bg-gray-50 px-4 py-1 flex items-center space-x-2 transition hover:bg-white">
@@ -7,7 +7,7 @@
             <p class="font-semibold text-sm uppercase">World Cup Champ</p>
         </button>
     </div>
-    <div class="flex-noneflex flex-col justify-center px-4 py-1 text-xs uppercase font-bold border-r border-gray-300">
+    <div class="flex-none flex bg-white flex-col justify-center px-4 py-1 text-xs uppercase font-bold border-r border-gray-300">
         <p class="mb-1 font-bold text-[0.6rem] underline">Finals</p>
         <div class="flex justify-between items-center space-x-8">
             <p>Senpais</p>
