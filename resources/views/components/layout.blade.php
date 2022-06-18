@@ -10,9 +10,9 @@
     {{-- Fontawesome icons --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="font-barlow bg-gray-100 text-gray-900">
+<body class="font-barlow bg-gray-100 text-gray-50">
 
-    <div class="sticky top-0 shadow">
+    <div class="sticky top-0 shadow z-50">
         {{-- Latest scores from latest-scores.blade.php component --}}
         {{-- $latestScoresVisibility can be set to hidden to hide it if needed --}}
         <x-latest-scores latestScoresVisibility="{{ $latestScoresVisibility }}"></x-latest-scores>
