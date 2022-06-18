@@ -11,5 +11,8 @@
         {{-- Upcoming tournaments --}}
         <x-upcoming-tournaments></x-upcoming-tournaments>
 
+        {{-- Statistics --}}
+        <x-statistics></x-statistics>
+        
     </x-slot>
 </x-layout>
