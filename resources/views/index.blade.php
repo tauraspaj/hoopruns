@@ -14,5 +14,8 @@
         {{-- Statistics --}}
         <x-index.statistics></x-index.statistics>
 
+        {{-- News & latest results --}}
+        <x-index.news></x-index.news>
+
     </x-slot>
 </x-layout>
