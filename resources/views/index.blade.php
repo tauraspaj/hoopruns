@@ -6,13 +6,13 @@
 
     <x-slot name="content">
         {{-- Hero banner --}}
-        <x-hero-banner></x-hero-banner>
+        <x-index.hero-banner></x-index.hero-banner>
 
         {{-- Upcoming tournaments --}}
-        <x-upcoming-tournaments></x-upcoming-tournaments>
+        <x-index.upcoming-tournaments></x-index.upcoming-tournaments>
 
         {{-- Statistics --}}
-        <x-statistics></x-statistics>
-        
+        <x-index.statistics></x-index.statistics>
+
     </x-slot>
 </x-layout>
