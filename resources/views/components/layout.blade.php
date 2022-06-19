@@ -23,5 +23,8 @@
 
     {{ $content }}
 
+    {{-- Footer --}}
+    <x-footer></x-footer>
+
 </body>
 </html>

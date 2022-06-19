@@ -17,7 +17,5 @@
         {{-- News & latest results --}}
         <x-index.news></x-index.news>
 
-        {{-- Footer --}}
-        <x-footer></x-footer>
     </x-slot>
 </x-layout>
