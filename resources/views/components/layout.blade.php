@@ -12,6 +12,9 @@
 
 </head>
 <body class="font-roboto bg-gray-100 text-gray-50">
+    
+    {{-- Navbar--}}
+    <x-navbar></x-navbar>
 
     {{ $content }}
 

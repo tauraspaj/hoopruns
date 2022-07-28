@@ -2,8 +2,6 @@
     <x-slot name="title">Hoop Runs</x-slot>
 
     <x-slot name="content">
-        {{-- Navbar--}}
-        <x-navbar></x-navbar>
 
         {{-- Hero banner --}}
         <x-index.hero-banner></x-index.hero-banner>
