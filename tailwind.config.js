@@ -12,7 +12,8 @@ module.exports = {
       fontFamily: {
         'barlow': ['Barlow', 'sans-serif'],
         'bebas': ['Bebas Neue', 'cursive'],
-        'roboto': ['Roboto', 'sans-serif']
+        'roboto': ['Roboto', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif']
       }
     },
   },
