@@ -1,21 +1,15 @@
 <x-layout>
-    <x-slot name="title">Custom title</x-slot>
-
-    {{-- Latest scores --}}
-    <x-slot name="latestScoresVisibility"></x-slot>
+    <x-slot name="title">Hoop Runs</x-slot>
 
     <x-slot name="content">
+        {{-- Navbar--}}
+        <x-navbar></x-navbar>
+
         {{-- Hero banner --}}
         <x-index.hero-banner></x-index.hero-banner>
 
-        {{-- Upcoming tournaments --}}
-        <x-index.upcoming-tournaments></x-index.upcoming-tournaments>
-
-        {{-- Statistics --}}
-        <x-index.statistics></x-index.statistics>
-
-        {{-- News & latest results --}}
-        <x-index.news></x-index.news>
-
+        <div class="h-96 bg-red-100">
+            next sec
+        </div>
     </x-slot>
 </x-layout>
