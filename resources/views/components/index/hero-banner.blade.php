@@ -22,10 +22,6 @@
         {{-- Floating pattern image --}}
         <img src="{{ asset('images/dot.png') }}" class="scale-75">
     </div>
-    <div class="hidden xl:block absolute scale-50 -right-32 -bottom-64 z-[-1] opacity-20">
-        {{-- Floating pattern image --}}
-        <img src="{{ asset('images/dot.png') }}" class="scale-75">
-    </div>
 
     {{-- Text --}}
     <div class="h-full flex items-center md:-mt-16 lg:mt-0 text-center md:text-left">
