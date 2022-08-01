@@ -1,19 +1,19 @@
-<section class="h-screen relative overflow-x-hidden">
+<section class="h-screen overflow-x-hidden border-b-2 border-gray-200">
     {{-- Floating text behind the images --}}
     <div class="inset-0 absolute flex justify-center items-center overflow-hidden z-[-1]">
-        <p class="text-gray-50 font-oswald text-center font-bold text-[15vw] whitespace-nowrap leading-[1.1] tracking-wide">RUNS<br>FOR HOOPERS</p>
+        <p class="text-gray-50 font-oswald text-center font-bold text-[15vw] whitespace-nowrap leading-[1.1] tracking-wide select-none">RUNS<br>FOR HOOPERS</p>
     </div>
 
     {{-- Floating images --}}
-    <div class="hidden md:flex scale-50 absolute -right-32 -bottom-56 lg:-bottom-40 lg:-right-16 xl:-bottom-32 xl:-right-12 lg:scale-75 2xl:scale-90 2xl:-bottom-32 2xl:right-12">
+    <div class="hidden md:flex scale-50 absolute -right-32 -bottom-56 lg:-bottom-40 lg:-right-16 xl:-bottom-32 xl:-right-12 lg:scale-75 2xl:scale-90 2xl:-bottom-32 2xl:right-12 select-none">
         {{-- Floating Kobe image --}}
         <div class="hidden xl:block mt-20 -mr-60">
-            <img src="{{ asset('images/kobe.png') }}" alt="Floating Kobe">
+            <img src="{{ asset('images/kobe.png') }}" alt="Image of Kobe">
         </div>
     
         {{-- Floating Lebron image --}}
         <div class="scale-90">
-            <img src="{{ asset('images/lebron.png') }}" alt="Floating Lebron">
+            <img src="{{ asset('images/lebron.png') }}" alt="Image of Lebron">
         </div>
     </div>
 
