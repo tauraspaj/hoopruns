@@ -6,8 +6,10 @@
         {{-- Hero banner --}}
         <x-index.hero-banner></x-index.hero-banner>
 
-        <div class="h-96 bg-red-100">
-            next sec
-        </div>
+        {{-- Upcoming tournaments --}}
+        <x-index.upcoming-tournaments></x-index.upcoming-tournaments>
+
+        {{-- Statistics --}}
+        <x-index.statistics></x-index.statistics>
     </x-slot>
 </x-layout>
